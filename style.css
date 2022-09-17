@@ -5,6 +5,7 @@ html, body {
 
 nav{
   text-align:center;
+  font-family: sans-serif;
 }
 
 p{
@@ -26,6 +27,10 @@ ol, ul, li {
   margin: 10px;
 }
 
+li.highlightColor{
+  background: rgb(161, 0, 0);
+}
+
 .navColor a:hover{
   display: block;
   background-color: rebeccapurple;
@@ -41,10 +46,6 @@ ul.List{
 body{
   background-color: black;
   color: rgb(245, 166, 39)
-}
-
-h{
- padding: auto; 
 }
 
 th{
